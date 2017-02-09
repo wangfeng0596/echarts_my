@@ -1,0 +1,24 @@
+.tooltipster-noir {
+	border-radius: 5px; 
+    border: 2px solid #ccc;
+	background: #61bde7;
+	border-color: #59add4;
+	color: #222;
+	max-width:300px;
+	background-image: -webkit-linear-gradient(rgba(255,255,255,0), rgba(255,255,255,0.5));
+  	background-image: -moz-linear-gradient(rgba(255,255,255,0), rgba(255,255,255,0.5));
+  	background-image: -ms-linear-gradient(rgba(255,255,255,0), rgba(255,255,255,0.5));
+  	background-image: -o-linear-gradient(rgba(255,255,255,0), rgba(255,255,255,0.5));
+  	background-image: linear-gradient(rgba(255,255,255,0), rgba(255,255,255,0.5));
+	opacity: 0.9;
+	box-shadow: 0 1px 2px rgba(0,0,0,.4), 0 1px 0 rgba(255,255,255,.5) inset;
+	text-shadow: 0 1px 0 rgba(255,255,255,.4);
+}
+.tooltipster-noir .tooltipster-content {
+	font-family: Microsoft YaHei, Arial;
+	text-shadow: 0 1px 0 rgba(255,255,255,.4);
+    word-break: break-all;
+	font-size: 14px;
+	line-height: 16px;
+	padding: 6px 8px;
+}

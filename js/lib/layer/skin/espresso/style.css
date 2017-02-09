@@ -1,0 +1,237 @@
+/*
+* @authors Espresso (130054555@qq.com)
+* @date    2015-05-20 10:42:38 
+* @link    http://www.2lpp.com/layer
+*
+*          .----.
+*       _.'__    `.
+*   .--(@)(@)----/#\
+* .' @          /###\
+* :         ,   #####
+*  `-..__.-' _.-\###/
+*        `;_:    `"'
+*      .'"""""`.
+*     //espresso\
+*    // 闁绘鐗婂鍫ュ箥閿熻姤绠� \
+*    `-._______.-'
+*    ___`. | .'___
+*   (______|______)
+*
+*/
+html #layui_layer_skinespressostylecss {
+  display: none;
+  position: absolute;
+  width: 1989px;
+}
+body .layer-ext-espresso {
+  /*
+  border: 6px solid #8D8D8D;
+  border: 6px solid rgba(0, 0, 0, 0.3);
+  border-radius: 3px;
+  background: #f8f8f8;
+  
+  border: 1px solid #0e2756;*/
+  background:linear-gradient(to bottom,#114682,#104075,#104075);
+  background-repeat: repeat;
+  box-shadow:#0d1c2e 1px 3px 3px 0px, #0d1c2e -1px 0px 3px 0px; border-radius:2px;
+}
+body .layer-ext-espresso .layui-layer-padding {
+  /*padding: 27px 20px 22px 75px;*/
+}
+body .layer-ext-espresso .layui-layer-title {
+  /*
+  border-bottom: 1px solid #eee;
+  font-size: 18px;
+  color: #0e90d2;
+  padding: 0;
+  text-indent: 1em;
+  font-family: "Microsoft YaHei", "鐎甸偊鍠涢拏瀣⒖閸涘鎷�", "SimHei", "濮掓稒鍨崇紞锟�;
+  height: 50px;
+  line-height: 44px;
+    
+  border: 1px solid #4297d7;*/
+  background:linear-gradient(to bottom,#1e64a5,#1a5a97,#165088);
+  color: #ffffff;
+  font-size:14px;
+  font-family:SimHei;
+  font-weight: normal;
+  margin: ;
+  border-bottom:1px solid #145590;
+  box-shadow:#0d1c2e 0px 0.5px 2px 0px;
+}
+body .layer-ext-espresso .layui-layer-min cite {
+  height: 5px;
+  background: #000;
+}
+body .layer-ext-espresso .layui-layer-close {
+  background: url(close.png);
+  width: 14px;
+  height: 14px;
+  /*transition: all 0.3s ease 0s;*/
+}
+body .layer-ext-espresso .layui-layer-close:hover {
+  transform: rotate(360deg);
+  text-indent: 0;
+  text-decoration: none;
+  background-position: 0 0;
+}
+body .layer-ext-espresso .layui-layer-max {
+  background: none;
+  border: 1px solid #000;
+  border-top-width: 4px;
+  height: 10px;
+  overflow: hidden;
+}
+body .layer-ext-espresso .layui-layer-max:hover {
+  transform: rotate(360deg);
+  border-color: #2D93CA;
+}
+body .layer-ext-espresso .layui-layer-setwin {
+  top: 11px;
+}
+body .layer-ext-espresso .layui-layer-content .layui-layer-ico {
+ /* width: 48px;
+  height: 48px;*/
+}
+body .layer-ext-espresso .layui-layer-content .layui-layer-ico.layui-layer-ico0 {
+  background: url("icon.png") 0 0;
+  background-repeat: no-repeat;
+}
+body .layer-ext-espresso .layui-layer-content .layui-layer-ico.layui-layer-ico1 {
+  background: url("icon.png") -52px 0;
+  background-repeat: no-repeat;
+}
+body .layer-ext-espresso .layui-layer-content .layui-layer-ico.layui-layer-ico2 {
+  background: url("icon.png") -105px 0;
+  background-repeat: no-repeat;
+}
+body .layer-ext-espresso .layui-layer-content .layui-layer-ico.layui-layer-ico3 {
+  background: url("icon.png") -156px 0;
+  background-repeat: no-repeat;
+}
+body .layer-ext-espresso .layui-layer-content .layui-layer-ico.layui-layer-ico4 {
+  background: url("icon.png") -210px 0;
+  background-repeat: no-repeat;
+}
+body .layer-ext-espresso .layui-layer-content .layui-layer-ico.layui-layer-ico5 {
+  background: url("icon.png") -261px 0;
+  background-repeat: no-repeat;
+}
+body .layer-ext-espresso .layui-layer-content .layui-layer-ico.layui-layer-ico6 {
+  background: url("icon.png") -314px 0;
+  background-repeat: no-repeat;
+}
+body .layer-ext-espresso .layui-layer-content .layui-layer-ico.layui-layer-ico7 {
+  background: url("icon.png") -367px 0;
+  background-repeat: no-repeat;
+}
+body .layer-ext-espresso .layui-layer-content .layui-layer-ico.layui-layer-ico8 {
+  background: url("icon.png") -419px 0;
+  background-repeat: no-repeat;
+}
+body .layer-ext-espresso .layui-layer-content .layui-layer-ico.layui-layer-ico9 {
+  background: url("icon.png") -471px 0;
+  background-repeat: no-repeat;
+}
+body .layer-ext-espresso .layui-layer-content .layui-layer-ico.layui-layer-ico10 {
+  background: url("icon.png") -524px 0;
+  background-repeat: no-repeat;
+}
+body .layer-ext-espresso .layui-layer-content .layui-layer-ico.layui-layer-ico11 {
+  background: url("icon.png") -576px 0;
+  background-repeat: no-repeat;
+}
+body .layer-ext-espresso .layui-layer-content .layui-layer-ico.layui-layer-ico12 {
+  background: url("icon.png") -629px 0;
+  background-repeat: no-repeat;
+}
+body .layer-ext-espresso .layui-layer-content .layui-layer-ico.layui-layer-ico13 {
+  background: url("icon.png") -681px 0;
+  background-repeat: no-repeat;
+}
+body .layer-ext-espresso .layui-layer-btn {
+  /*text-align: right;*/
+  text-align: center;
+  /*padding-right: 5px;
+  background-color: #0e2756;*/
+}
+body .layer-ext-espresso .layui-layer-btn .layui-layer-btn0 {
+  /*background: #0e90d2;
+  height: 36px;
+  line-height: 36px;
+  padding: 0 25px;
+  font-size: 14px;
+  border-radius: 4px;
+  */
+  border: 0px;
+  padding: 0 25px;
+  /*width:80px;*/
+  font-size:12px;
+  background:linear-gradient(to bottom,#3d97e6,#2f84cf,#2374bb);
+  font-weight: normal;
+  color: #fff;
+  border-radius: 2px; 
+}
+.layui-layer-btn a:hover{
+        background: linear-gradient(to bottom,#42a5fb,#3593e6,#267fcd);
+}
+body .layer-ext-espresso .layui-layer-btn .layui-layer-btn0:hover{
+		background:linear-gradient(to bottom,#42a5fb,#3593e6,#267fcd);
+	}
+body .layer-ext-espresso .layui-layer-btn .layui-layer-btn1 {
+  /*
+  background: #f37b1d;
+  height: 36px;
+  line-height: 36px;
+  padding: 0 25px;
+  font-size: 14px;
+  border-radius: 4px;
+  */
+  border: 0px;
+  padding: 0 25px;
+  /*width:80px;*/
+  background:linear-gradient(to bottom,#3d97e6,#2f84cf,#2374bb);
+  font-weight: normal;
+  color: #fff;
+  border-radius: 2px;
+}
+body .layer-ext-espresso .layui-layer-btn .layui-layer-btn1:hover{
+		background:linear-gradient(to bottom,#42a5fb,#3593e6,#267fcd);
+	}
+.alarm-warning{
+  padding: 40px 20px;
+  margin-top: 5px;
+  background: #feffc8 url('warning_48.png') 20px 50% no-repeat;
+  border: 1px solid #f1aa2d;
+}
+.tip_prompt{
+  padding: 40px 20px;
+  margin-top: 5px;
+  background: #d4f685 url('w2.png') 20px 50% no-repeat;
+  border: 1px solid #f1aa2d;
+}
+.alarm-prompt{
+  padding: 40px 20px;
+  margin-top: 5px;
+  background: #fdcea4 url('w1.png') 20px 50% no-repeat;
+  border: 1px solid #f1aa2d;
+}
+.alarm-warning p,.alarm-prompt p,.tip_prompt p{
+  color: #555;
+  font-family: Microsoft YaHei, Arial;
+  font-size: 16px;
+  padding-left: 50px;
+  word-break:break-all; 
+  word-wrap:break-word; 
+  
+}
+.alarm-message{
+  padding: .5em 1em;
+}
+.wa_dialog{
+   padding:10px;
+}
+.wa_dialog .datagrid{ margin:0 auto;}
+.wa_dialog .lbl_txt{
+    width:107px;
+}
