@@ -1,0 +1,80 @@
+/* CSS Document */
+*{ padding:0px; margin:0px;}
+ol,ul li{ list-style:none;}
+html{ height: 100%;}
+body .main_content{ width:100%; height:100%; }
+.login_bg{
+    height: 100%;
+    padding: 0;
+    margin: 0;
+    color: #fff;
+    overflow: hidden;
+    background: url('../images/login/bg1.jpg') center no-repeat;
+    font-family: Microsoft YaHei;
+    background-size:cover;
+
+}
+
+.logo{ width:496px; height:320px; background:rgba(5,83,161,0.6); position:absolute; left:50%; margin-left:-248px; top:50%; margin-top:-160px; border-radius:2px;}
+.logo ol{ margin-left:80px; margin-top:45px;}
+.logo li{ height:42px; margin-bottom:10px;}
+.logo li label{ font-size:13px; color:#FFF; width:50px; text-align:right; display:inline-block; margin-right:7px; text-shadow:#fff 0px 0px 3px inherit;}
+.logo li input{ border:0px;}
+.logo li input[name=user],input[type=password]{ height:90%; width:234px; background:#FFF; padding-left:36px;}
+.logo li input[name=code]{ height:90%; width:94px; background:#FFF;padding-left:36px;}
+.logo li input[type=checkbox]{width:13px; height:13px; display:inline-block; vertical-align:middle; margin-left:57px; margin-right:5px;}
+.logo li input[type=button]{height:90%; width:236px; margin-left:57px; background:#ffd850; font-size:18px; margin-top:-20px; border-radius:1px;}
+.logo li input[type=button]:hover{background:#ffde69;}
+.logo li span{ color:#FFF; font-size:13px;}
+.logo li a{ text-decoration:none; color:#FFF; font-size:13px; margin-left:130px;}
+.logo li b{height:90%; width:130px; display:inline-block; background:#ccc; vertical-align:middle; margin-left:10px; text-align:center; font-size:24px; line-height:38px; color:#FFF;animation: my1 1.5s linear infinite alternate;}
+.logo li strong{ display:inline-block; width:24px; height:24px;margin-left:10px; padding-left:30px; font-weight:normal; color:#F00; font-size:14px; vertical-align:middle;}
+.logo from{ position:relative;}
+.logo .tu1{ position:absolute; left:145px; top:53px;}
+.logo .tu2{ position:absolute; left:145px; top:104px;}
+.logo .tu3{ position:absolute; left:145px; top:157px;}
+
+.logo .img1{ position:absolute; left:10px; top:10px;}
+.logo .img2{ position:absolute; right:10px; top:10px;}
+.logo .img3{ position:absolute; right:10px; bottom:10px;}
+.logo .img4{ position:absolute; left:10px; bottom:10px;}
+
+.pie{ position:absolute; left:50%; margin-left:-543px;bottom:0px; z-index:-9999;
+/*animation: my 3.5s linear 0s 1*/;}
+
+.logo li .focu{ box-shadow:#51b3f0 0px 0px 0px 2px inset;} 
+.logo li input.true{box-shadow:#98c700 0px 0px 0px 2px inset; background:#f0fcc5;}
+.logo li input.false{box-shadow:#eb8775 0px 0px 0px 2px inset; background:#fcd2ca;}
+.logo li .true_tu{ background:url(../images/login/true.jpg) no-repeat left center;}
+.logo li .false_tu{ background:url(../images/login/error.jpg) no-repeat left center;}
+/*animation*/
+@keyframes my {
+ 	0%{bottom:600px; transform: scale(0.2,0.2) rotateX(0deg)}
+	40%{bottom:0px; transform: scale(0.2,0.2) rotateX(180deg)}
+	60%{bottom:0px; transform: scale(0.2,0.2) rotateX(0deg)}
+	100%{bottom:0px; transform: scale(1,1) rotateX(0deg)}
+	
+}
+
+@keyframes my1 {
+  from {
+    text-shadow: 0 0 10px #fff,
+               0 0 20px  #fff,
+               0 0 30px  #fff,
+               0 0 40px  #FF1177,
+               0 0 70px  #FF1177,
+               0 0 80px  #FF1177,
+               0 0 100px #FF1177,
+               0 0 150px #FF1177;
+  }
+  to {
+    text-shadow: 0 0 10px #fff,
+               0 0 20px  #fff,
+               0 0 30px  #fff,
+               0 0 40px  #FF1177,
+               0 0 70px  #FF1177,
+               0 0 180px #FF1177,
+               0 0 200px #FF1177,
+               0 0 250px #FF1177;
+  }
+}

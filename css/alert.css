@@ -1,0 +1,60 @@
+.alarm-prompt1{padding: 40px 20px;
+    margin-top: 5px;
+    background: #d4f685 url('../images/icons/w2.png') 20px 50% no-repeat;
+    border: 1px solid #f1aa2d;}
+.alarm-prompt1 p{	color: #555;
+    font-family: Microsoft YaHei, Arial;
+    font-size: 16px;
+    padding-left: 50px;
+}
+.alarm-prompt2{padding: 40px 20px;
+    margin-top: 5px;
+    background: #fdcea4 url('../images/icons/w1.png') 20px 50% no-repeat;
+    border: 1px solid #f1aa2d;}
+.alarm-prompt2 p{	color: #555;
+    font-family: Microsoft YaHei, Arial;
+    font-size: 16px;
+    padding-left: 50px;
+}
+.alarm-prompt3{ background:"";}
+.alarm-prompt3 p{
+	color: #2e6e9e;
+	font-size:16px;
+	margin-top:10px;
+	} 
+.alarm-prompt3 p b{
+	font-weight:normal;
+	 color:#FFF;
+	 vertical-align:text-top;
+	 display:inline-block;
+	 width:90px;
+	 text-align:right;
+	}	
+.alarm-prompt3 p span{
+	display:inline-block;
+	border: 1px solid #c5dbec;
+    background: #dfeffc url("../images/icons/ui-bg_dots-small_85_dfeffc_2x2(1).png") 50% 50% repeat;
+    font-weight: normal;
+    color: #2e6e9e;
+	padding:4px 18px;
+	text-align:center;
+	cursor:pointer;
+	}
+.alarm-prompt3 p span:hover{background:url("../images/icons/ui-bg_dots-small_75_d0e5f5_2x2.png") 50% 50% repeat;
+border:1px solid #79b7e7;
+color:#1d5987;}	
+.alarm-prompt3 p span.active{border: 1px solid #79b7e7;
+    background: #f5f8f9 url("../images/icons/ui-bg_dots-small_100_f5f8f9_2x2.png") 50% 50% repeat;
+    font-weight: normal;
+    color: #e17009;}
+.alarm-prompt3 p textarea{
+	padding: 3px;
+    font-size: 12px;
+    outline: none;
+    border: 1px solid #468BC9;
+    background-color: #16538E;
+    color: white;
+	width:435px;
+	height:120px;
+	resize:none;
+	}	
